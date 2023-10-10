@@ -90,6 +90,7 @@ nav ul li{
 
 main {
     grid-row: 2;
+    margin: 0 1rem;
 }
 
  section {
