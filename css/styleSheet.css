@@ -18,11 +18,19 @@ header {
     margin-bottom: 2rem;
     min-height: 10rem;
     grid-row: 1;
+    text-align: center;
 
 }
 
 header h1 {
-    padding: 1rem;
+    padding: 1rem 1rem 0.3rem 1rem;
+    font-size: 3rem;
+}
+
+header h2 {
+    color: grey;
+    padding: 0 1rem;
+    font: 1.4rem;
 }
 
 section.red {
@@ -136,7 +144,19 @@ footer {
      nav ul li a:hover {
         background-color: grey;
      }
+
+     header {
+        text-align: left;
+     }
  }
+
+ @media (min-width: 980px) {
+    header {
+        text-align: left;
+    }
+ }
+
+
 
  
  
